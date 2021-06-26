@@ -13,10 +13,11 @@ const app = express();
 // The above chunk of code matches all requests and therefore must
 // be commented out to apply separate responses for different routes.
 
-// Creating routes
+// Creating routes with get requests.
 // /cats = 'meow'
 // /dogs = 'woof'
 // '/'
+
 
 app.get('/cats', (req,res) => {
 	console.log('Incoming cat request!');
